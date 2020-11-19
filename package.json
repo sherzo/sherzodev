@@ -1,0 +1,31 @@
+{
+  "name": "sherzodev",
+  "version": "0.0.1",
+  "description": "Blog personal",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherzo/sherzodev.git"
+  },
+  "keywords": [
+    "Nextjs",
+    "JavaScript",
+    "Blog"
+  ],
+  "author": "sherzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sherzo/sherzodev/issues"
+  },
+  "homepage": "https://github.com/sherzo/sherzodev#readme",
+  "dependencies": {
+    "next": "^10.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
