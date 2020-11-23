@@ -1,9 +1,9 @@
-import React, { ReactComponentElement, ReactNode } from "react";
+import React, { ReactNode } from "react";
 
 type JumboHomeProps = {
-  responsiveImg: React.ElementType;
-  content: React.ElementType | string;
-  image: React.ElementType;
+  responsiveImg: ReactNode;
+  content: ReactNode | string;
+  image: ReactNode;
 };
 
 export default function JumboHome({
