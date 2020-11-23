@@ -7,6 +7,18 @@ body {
   @apply bg-gray-50 dark:bg-gray-900;
 }
 
+.logo {
+  @apply text-white py-1 text-xl mr-24;
+}
+
+.nav-item {
+  @apply text-white py-1 px-3 mx-6 rounded transition duration-500;
+}
+
+.nav-item:hover {
+  @apply bg-blue-600;
+}
+
 @responsive {
   .w-800 {
     width: 800px;
