@@ -19,9 +19,19 @@ body {
   @apply bg-blue-600;
 }
 
+/** Titles */
+
+h2 {
+  @apply text-2xl font-semibold mt-4 mb-6;
+}
+
+a.link {
+  @apply text-blue-600;
+}
+
 @responsive {
-  .w-800 {
-    width: 800px;
+  .max-w-800 {
+    max-width: 800px;
   }
 }
 
