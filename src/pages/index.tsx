@@ -2,9 +2,10 @@ import React from "react";
 import Navbar from "@components/Navbar";
 import JumboHome from "@components/JumboHome";
 import Image from "next/image";
+import PostList from "@components/PostList";
 
 const JumboHomeContent = () => (
-  <>
+  <h1 className="text-white text-3xl leading-relaxed lg:text-left text-center">
     Hi 👋, I'm Saul Florez{" "}
     <a
       className="text-yellow-300 font-mono font-semibold"
@@ -14,7 +15,7 @@ const JumboHomeContent = () => (
       @sherzo
     </a>
     . I'm Egineer and Software Developer
-  </>
+  </h1>
 );
 
 const IndexPage = () => {
@@ -40,6 +41,7 @@ const IndexPage = () => {
           />
         }
       />
+      <PostList listTitle="Recently posted" />
     </>
   );
 };

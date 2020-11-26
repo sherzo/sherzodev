@@ -1,0 +1,38 @@
+@tailwind base;
+
+@tailwind components;
+
+html,
+body {
+  @apply bg-gray-50 dark:bg-gray-900;
+}
+
+.logo {
+  @apply text-white py-1 text-xl mr-24;
+}
+
+.nav-item {
+  @apply text-white py-1 px-3 mx-6 rounded transition duration-500;
+}
+
+.nav-item:hover {
+  @apply bg-blue-600;
+}
+
+/** Titles */
+
+h2 {
+  @apply text-2xl font-semibold mt-4 mb-6;
+}
+
+a.link {
+  @apply text-blue-600;
+}
+
+@responsive {
+  .max-w-800 {
+    max-width: 800px;
+  }
+}
+
+@tailwind utilities;
